@@ -1,5 +1,32 @@
 # Getting Started with Create React App
 
+# Mirrors
+
+The animation interactivities created are going to be used in ePub formats across all supported
+platforms and devices including desktop, tablets and smartphones, keeping that in mind please follow
+the guidelines as under:
+
+1. Animation must be responsive and should work on any screen size including smartphones. You
+can change the presentation layout design like side by side or stack vertically to fit within the
+respective screen size. But interactivity must work.
+
+2. Make sure every single animation works independently, and is usable at multiple place/scenario
+within a same page, avoid using IDs, instead use Classes. Each animation is used for multiple
+languages and will be repeated multiple times inside the same page.
+
+3. We will insert different types of multiple animations in one page, they should work
+independently without clashing with any other interactivity in either form or presentation ways.
+
+4. Reset function must only reset the animation activity, not reload the whole page.
+
+5. All the resources, files and plugins used must be packaged locally. Do not use external links.
+
+6. Do not use VW/VH unit as it could be used inside column, or page blocks so viewport size won’t
+work.
+
+7. Animation module must resize to its parent size. Example, if we create a parent DIV container
+which has its own size, the animation must resize to fit within its parent container.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
